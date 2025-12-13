@@ -1,36 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <!-- Head -->
+    <!-- The Head element deals with everything not visible on the web page such as linking stylesheets, and meta tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Password Manager</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
-        <!-- Heading -->
+        <!-- Header -->
+        <h1>Password Manager</h1>
     </header>
     <main>
         <!-- Body -->
-         <form>
-            <input type="website" placeholder="Enter the website" id="website" name="website" required><br/>
-            <input type="text" placeholder="Enter the username" id="username" name="username" required><br/>
-            <input type="password" placeholder="Enter the password" id="password" name="password" required><br/>
+        <form>
+            <input type="website" placeholder="Enter the website" id="website" name="website" required><br />
+            <input type="text" placeholder="Enter the username" id="username" name="username" required><br />
+            <input type="password" placeholder="Enter the password" id="password" name="password" required><br />
             <button type="submit">Submit</button>
-         </form>
-         <br />
-         
+        </form>
+        <br />
+
+        <input type="password" id="master">
         <button id="unlock-btn">Unlock</button>
         <button id="lock-btn">Lock</button>
 
-        <br/>
+        <br />
         <h2>Your Passwords</h2>
-         <p id="response"></p>
+        <p id="response"></p>
     </main>
     <footer>
         <!-- Footer -->
     </footer>
-    
+
     <script src="script.js"></script>
 </body>
+
 </html>
