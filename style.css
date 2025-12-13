@@ -1,0 +1,188 @@
+/* ========================================= */
+/* GLOBAL PAGE STYLES                         */
+/* ========================================= */
+
+/* Apply styles to the entire page */
+body {
+    /* Remove default browser spacing */
+    margin: 0;
+    padding: 0;
+
+    /* Use a simple, readable font */
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* Light background so content stands out */
+    background-color: #f4f4f4;
+
+    /* Dark gray text for better readability */
+    color: #333;
+}
+
+
+/* ========================================= */
+/* HEADER STYLES                              */
+/* ========================================= */
+
+header {
+    /* Dark background for contrast */
+    background-color: #333;
+
+    /* White text for visibility */
+    color: #fff;
+
+    /* Space inside the header */
+    padding: 20px;
+
+    /* Center the text horizontally */
+    text-align: center;
+}
+
+
+/* ========================================= */
+/* MAIN CONTENT AREA                          */
+/* ========================================= */
+
+main {
+    /* Limit the width so it doesn’t stretch too far */
+    max-width: 500px;
+
+    /* Center the main content horizontally */
+    margin: 30px auto;
+
+    /* Space inside the main container */
+    padding: 20px;
+
+    /* White background for the form area */
+    background-color: #fff;
+
+    /* Slightly rounded corners */
+    border-radius: 5px;
+
+    /* Subtle shadow to lift it off the page */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* ========================================= */
+/* FORM STYLES                                */
+/* ========================================= */
+
+form {
+    /* Space below the form */
+    margin-bottom: 20px;
+}
+
+/* Style all input fields */
+input {
+    /* Make inputs stretch full width */
+    width: 100%;
+
+    /* Space inside the input box */
+    padding: 10px;
+
+    /* Space below each input */
+    margin-bottom: 10px;
+
+    /* Light border */
+    border: 1px solid #ccc;
+
+    /* Rounded corners */
+    border-radius: 4px;
+
+    /* Ensure padding doesn’t affect width */
+    box-sizing: border-box;
+}
+
+/* Style password inputs separately if needed */
+input[type="password"] {
+    /* Same look, but kept separate for learning */
+    background-color: #fafafa;
+}
+
+
+/* ========================================= */
+/* BUTTON STYLES                              */
+/* ========================================= */
+
+button {
+    /* Full width buttons */
+    width: 100%;
+
+    /* Space inside the button */
+    padding: 10px;
+
+    /* Dark background */
+    background-color: #333;
+
+    /* White text */
+    color: #fff;
+
+    /* Remove default border */
+    border: none;
+
+    /* Rounded corners */
+    border-radius: 4px;
+
+    /* Pointer cursor on hover */
+    cursor: pointer;
+
+    /* Slight spacing below buttons */
+    margin-bottom: 10px;
+}
+
+/* Change button color when hovered */
+button:hover {
+    /* Slightly lighter shade */
+    background-color: #555;
+}
+
+
+/* ========================================= */
+/* TEXT & OUTPUT STYLES                       */
+/* ========================================= */
+
+/* Style the "Your Passwords" heading */
+h2 {
+    /* Add space above */
+    margin-top: 20px;
+
+    /* Center the heading */
+    text-align: center;
+}
+
+/* Style the response/output text */
+#response {
+    /* Light gray background */
+    background-color: #f9f9f9;
+
+    /* Space inside the response box */
+    padding: 10px;
+
+    /* Light border */
+    border: 1px solid #ddd;
+
+    /* Rounded edges */
+    border-radius: 4px;
+
+    /* Small text size */
+    font-size: 14px;
+}
+
+
+/* ========================================= */
+/* FOOTER STYLES                              */
+/* ========================================= */
+
+footer {
+    /* Center footer content */
+    text-align: center;
+
+    /* Space around footer */
+    padding: 10px;
+
+    /* Smaller text */
+    font-size: 12px;
+
+    /* Light gray text */
+    color: #777;
+}
